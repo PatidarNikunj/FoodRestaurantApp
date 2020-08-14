@@ -1,0 +1,223 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Design.Light.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:fontFamily">@font/myriadpro_regular</item>
+        <item name="android:actionMenuTextAppearance">@android:style/TextAppearance.Material.Small
+        </item>
+        <!--		<item name="android:spinnerItemStyle">@style/Spinner.ItemStyle</item>-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/contentBg</item>
+    </style>
+
+    <style name="AppTheme.Translucent" parent="AppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <!--
+        <style name="AppTheme.Translucent" parent="AppTheme">
+            <item name="android:windowActionBar">false</item>
+            <item name="windowActionBar">false</item>
+            <item name="android:windowNoTitle">true</item>
+            <item name="windowNoTitle">true</item>
+            <item name="android:windowTranslucentStatus">true</item>
+            <item name="android:windowTranslucentNavigation">true</item>
+            <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        </style>-->
+
+    <style name="AppThemeFullScreen" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- TextView Styles -->
+
+    <style name="Headline.H1" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/headline_h1</item>
+        <item name="android:fontFamily">@font/myriadpro_semibold</item>
+    </style>
+
+    <style name="Headline.H2" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/headline_h2</item>
+        <item name="android:fontFamily">@font/myriadpro_semibold</item>
+    </style>
+
+    <style name="Headline.H3" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/headline_h3</item>
+        <item name="android:fontFamily">@font/myriadpro_semibold</item>
+    </style>
+
+    <style name="Headline.H4" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/headline_h4</item>
+        <item name="android:fontFamily">@font/myriadpro_semibold</item>
+    </style>
+
+    <style name="Headline.H4.MEDIUM" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/headline_h4_medium</item>
+        <item name="android:fontFamily">@font/myriadpro_semibold</item>
+    </style>
+
+    <style name="Headline.H5" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/headline_h5</item>
+        <item name="android:fontFamily">@font/myriadpro_semibold</item>
+    </style>
+
+    <style name="Headline.H6" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/headline_h6</item>
+        <item name="android:fontFamily">@font/myriadpro_semibold</item>
+    </style>
+
+    <style name="Headline.H7" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/headline_h7</item>
+        <item name="android:fontFamily">@font/myriadpro_semibold</item>
+    </style>
+
+    <style name="Subtitle.S1" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/subtitle_1</item>
+        <item name="android:fontFamily">@font/myriadpro_semibold</item>
+    </style>
+
+    <style name="Subtitle.S2" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/subtitle_2</item>
+        <item name="android:fontFamily">@font/myriadpro_semibold</item>
+    </style>
+
+    <style name="Subtitle.S3" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/subtitle_3</item>
+        <item name="android:fontFamily">@font/myriadpro_semibold</item>
+    </style>
+
+    <style name="Subtitle.S4" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/subtitle_4</item>
+        <item name="android:fontFamily">@font/myriadpro_semibold</item>
+    </style>
+
+    <style name="Body.B1" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/body_1</item>
+        <item name="android:fontFamily">@font/myriadpro_regular</item>
+    </style>
+
+    <style name="Body.B2" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/body_2</item>
+        <item name="android:fontFamily">@font/myriadpro_regular</item>
+    </style>
+
+    <style name="Body.B3" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/body_3</item>
+        <item name="android:fontFamily">@font/myriadpro_regular</item>
+    </style>
+
+    <style name="Body.B4" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/body_4</item>
+        <item name="android:fontFamily">@font/myriadpro_regular</item>
+    </style>
+
+    <style name="Body.B5" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/body_5</item>
+        <item name="android:fontFamily">@font/myriadpro_cond</item>
+    </style>
+
+    <style name="SubBody.B1" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/subbody_1</item>
+        <item name="android:fontFamily">@font/myriadpro_regular</item>
+    </style>
+
+    <style name="SubBody.B2" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/subbody_2</item>
+        <item name="android:fontFamily">@font/myriadpro_regular</item>
+    </style>
+
+    <style name="SubBody.B3" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/subbody_3</item>
+        <item name="android:fontFamily">@font/myriadpro_regular</item>
+    </style>
+
+    <style name="SubBody.B4" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/subbody_4</item>
+        <item name="android:fontFamily">@font/myriadpro_regular</item>
+    </style>
+
+    <style name="Button.B1" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/button_1</item>
+        <item name="android:fontFamily">@font/myriadpro_semibold</item>
+    </style>
+
+    <style name="Button.B2" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/button_2</item>
+        <item name="android:fontFamily">@font/myriadpro_semibold</item>
+    </style>
+
+    <style name="Button.B3" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/button_3</item>
+        <item name="android:fontFamily">@font/myriadpro_semibold</item>
+    </style>
+
+    <style name="Button.B4" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/button_4</item>
+        <item name="android:fontFamily">@font/myriadpro_semibold</item>
+    </style>
+
+    <style name="EditText.E1" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/edittext_1</item>
+        <item name="android:fontFamily">@font/myriadpro_cond</item>
+    </style>
+
+    <style name="EditText.E2" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/edittext_2</item>
+        <item name="android:fontFamily">@font/myriadpro_cond</item>
+    </style>
+
+    <style name="EditText.E3" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/edittext_3</item>
+        <item name="android:fontFamily">@font/myriadpro_cond</item>
+    </style>
+
+    <style name="EditText.E4" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/edittext_4</item>
+        <item name="android:fontFamily">@font/myriadpro_cond</item>
+    </style>
+
+    <style name="ContentText" parent="TextAppearance.AppCompat">
+        <item name="android:lineSpacingMultiplier">1.5</item>
+        <item name="android:padding">@dimen/margin_xlarge</item>
+        <item name="android:textSize">@dimen/body_2</item>
+        <item name="android:fontFamily">@font/myriadpro_regular</item>
+        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Button.Colored" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/button_2</item>
+        <item name="android:textColor">@color/md_white_1000</item>
+        <item name="android:fontFamily">@font/myriadpro_semibold</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:padding">@dimen/margin_large</item>
+    </style>
+
+    <style name="NavigationView.Menu.Text" parent="TextAppearance.AppCompat.Menu">
+        <item name="android:textSize">@dimen/side_menu</item>
+        <item name="android:fontFamily">@font/myriadpro_regular</item>
+        <item name="android:textColor">#363636</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextAppearance.Design.Snackbar.Message" parent="android:TextAppearance" tools:override="true">
+        <item name="android:textSize">@dimen/body_1</item>
+        <item name="android:fontFamily">@font/myriadpro_light</item>
+    </style>
+
+    <style name="ProgressBarStyle" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:background">@drawable/progressbar_bg</item>
+        <item name="android:padding">@dimen/margin_normal</item>
+        <item name="android:indeterminateDuration">1300</item>
+        <item name="android:indeterminateDrawable">@drawable/progressbar</item>
+    </style>
+
+</resources>

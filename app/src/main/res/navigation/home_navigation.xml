@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_navigation"
+    app:startDestination="@id/nav_restaurant">
+
+    <fragment
+        android:id="@+id/nav_restaurant"
+        android:name="com.example.test.ui.restaurant.RestaurantFragment"
+        android:label="Find My Dine"
+        tools:layout="@layout/fragment_restaurant">
+
+        <action
+            android:id="@+id/action_nav_restaurant_to_nav_favourite_restaurant"
+            app:destination="@id/nav_favourite_restaurant" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_favourite_restaurant"
+        android:name="com.example.test.ui.favourite_restaurant.FavouriteRestaurantFragment"
+        android:label="Bookmarked Dine"
+        tools:layout="@layout/fragment_favourite_restaurant" />
+</navigation>

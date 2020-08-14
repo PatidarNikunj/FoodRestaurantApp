@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Food App</string>
+    <string name="app_version">V 1.0.2</string>
+
+    <string name="network_error">Check your internet connection and try again</string>
+    <string name="something_went_wrong">Something went wrong, Please try again!</string>
+
+    <!--empty state-->
+    <string name="no_items_available">No items available.</string>
+    <string name="empty_screen">We do not have anything\nhere right now.</string>
+    <string name="please_retry">Please Retry</string>
+    <string name="retry">Retry</string>
+    <string name="search_by_location_hint">Search by location...</string>
+</resources>

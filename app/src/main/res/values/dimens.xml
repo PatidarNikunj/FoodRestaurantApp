@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="radius10">10dp</dimen>
+    <dimen name="radius5">5dp</dimen>
+    <dimen name="stroke1">1dp</dimen>
+    <dimen name="radius4">4dp</dimen>
+    <dimen name="radius8">8dp</dimen>
+    <dimen name="radius20">20dp</dimen>
+</resources>
