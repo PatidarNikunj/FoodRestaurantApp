@@ -16,7 +16,6 @@ import com.example.test.databinding.NavHeaderMainBinding
 import com.example.test.ui.base.BaseActivity
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.support.HasSupportFragmentInjector
-import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.layout_toolbar.*
 import javax.inject.Inject
 
@@ -109,4 +108,5 @@ class MainActivity :
     override fun onBackPressed() {
         finish()
     }
+
 }

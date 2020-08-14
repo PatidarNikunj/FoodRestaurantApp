@@ -122,6 +122,7 @@ abstract class BaseFragment<T : ViewDataBinding, V : BaseViewModel<*>> : Fragmen
         fun onFragmentAttached()
 
         fun onFragmentDetached(tag: String)
+
     }
 
     private var dialogs: Dialog? = null

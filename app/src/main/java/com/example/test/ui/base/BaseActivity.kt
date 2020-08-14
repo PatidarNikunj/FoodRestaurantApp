@@ -18,6 +18,7 @@ import com.example.test.R
 import com.example.test.utils.LocaleHelper
 import com.example.test.utils.NetworkUtils
 import dagger.android.AndroidInjection
+import kotlinx.android.synthetic.main.content_main.*
 
 
 /**
@@ -168,4 +169,15 @@ abstract class BaseActivity<T : ViewDataBinding, V : BaseViewModel<*>> : AppComp
         dismissDialog()
     }
 
+    override fun onRequestPermissionsResult(
+        requestCode: Int,
+        permissions: Array<out String>,
+        grantResults: IntArray
+    ) {
+        nav_host_fragment.childFragmentManager.fragments[0].onRequestPermissionsResult(
+            requestCode,
+            permissions,
+            grantResults
+        )
+    }
 }

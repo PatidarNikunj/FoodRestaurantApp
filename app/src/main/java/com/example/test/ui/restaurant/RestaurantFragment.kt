@@ -252,49 +252,4 @@ open class RestaurantFragment : BaseFragment<FragmentRestaurantBinding, Restaura
             ).show()
         }
     }
-
-/* fun apiCall() {
-     val selectedGuid = (activity as MainActivity).getSelectedGuid()
-     val selectedContract = (activity as MainActivity).getSelectedContract()
-
-     if (isNetworkConnected) {
-         if ((activity as MainActivity).viewModel.dashboardDetails != null) {
-             viewModel.dashboardDetails = (activity as MainActivity).viewModel.dashboardDetails!!
-             setUp()
-         } else {
-//                viewModel.getDashboardDetails(
-//                    selectedGuid,
-//                    selectedContract,
-//                    activity = MainActivity()
-//                )
-         }
-     } else {
-         Snackbar.make(
-             (activity as MainActivity).linearLayout,
-             getString(R.string.network_error),
-             Snackbar.LENGTH_LONG
-         ).show()
-     }
- }
-
- override fun onNoResponseReceived() {
-     Snackbar.make(
-         (activity as MainActivity).linearLayout,
-         getString(R.string.something_went_wrong),
-         Snackbar.LENGTH_LONG
-     ).show()
- }
-
- override fun onHandleError(error: String) {
- }
-
- override fun onResponseReceivedDashboardDetails(dashboardResponse: DashboardResponse) {
-     if (dashboardResponse.data?.contractServices?.data != null) {
-         (activity as MainActivity).freislandLeaseNumber =
-             dashboardResponse.data?.contractServices?.data?.contractLeaseAdvisorNumber.toString()
-         (activity as MainActivity).dealerNumber =
-             dashboardResponse.data?.contractServices?.data?.contractDealerNumber.toString()
-     }
-     setUp()
- }*/
 }
